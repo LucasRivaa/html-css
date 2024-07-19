@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color:#A2C5DB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#principal{
+    text-align: center;
+    color: #334C5C;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0C1433;
+}
+h2{
+    color:#142733;
+
+}
+.Basico{
+    color:#3a5c33;
+    font-weight: bold;
+}
+.Intermed{
+    color: #6e752d;
+}
+.avd{
+    color:#993333;
+}

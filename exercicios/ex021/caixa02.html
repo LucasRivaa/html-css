@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(77, 86, 92);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: rgb(149, 170, 189);
+            margin: auto;
+            text-align: center;
+            padding-top: 4px;
+            
+        }
+        main{
+            background-color: rgb(223, 223, 223);
+            margin: 20px;
+            padding: 4px;
+            box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.514);
+            border-radius: 10px;
+           
+        
+        }
+        nav{
+            background-color: red; 
+            margin: auto          
+        }
+
+        nav > a {
+            font-family: 'Times New Roman', Times, serif;
+          color: white;
+          padding: 50px;
+          text-decoration: none;            
+        }
+        nav > a:hover{
+            font-size: 25px;
+            text-decoration: underline;
+        }
+        footer{
+            font-weight: 700;
+            background-color: darkgray;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        
+        }
+        h2{
+            color: blue;   
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bom no Fut</h1>
+        <nav>
+            <a href="#">Link do site</a>
+            <a href="#">Link do site</a>
+            <a href="#">Link do site</a>
+            <a href="#">Link do site</a>        
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Futebas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum accusantium nemo eos, excepturi eveniet ex culpa, sequi a accusamus iusto nisi ullam saepe distinctio repellendus similique! Debitis eligendi ducimus aut?
+            </p>
+        </section>
+        <section id="noticias">
+            <h2>Bernardinho</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam tempora unde cum, optio velit totam corrupti sit repellat ratione, ab sed nisi error repudiandae quia ducimus asperiores quidem! Qui!</p>
+            <article>  
+                <footer>
+                    <p>Artigo desenvolvido por Adoaldo</p>
+                </footer>
+            </article>
+
+        </section>
+    </main>
+
+</body>
+</html>
